@@ -20,7 +20,6 @@ export default function Page(){
                 <Suspense fallback={<CardsSkeleton/>}>
                     <CardFiles />
                 </Suspense>
-            
             </div>
             <div className="flex justify-end mt-1">
                 <Link href="/dashboard/recursos" className="text-gray-600">Ver todos</Link>

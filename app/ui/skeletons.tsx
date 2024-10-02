@@ -31,7 +31,6 @@ const shimmer =
           </div>
           <div className="ml-2 h-8 w-12 bg-gray-200 rounded-full dark:bg-gray-700 text-sm font-medium" />
         </div>
-        
       </div>
     );
   }
