@@ -4,8 +4,6 @@ import {z} from 'zod';
 import { sql } from '@vercel/postgres';
 import type { User } from '@/app/lib/definitions';
 import bcrypt from 'bcrypt';
-import { pages } from "next/dist/build/templates/app-page";
-import { signIn } from "next-auth/react";
  
 
 async function getUser(email: string): Promise<User | undefined> {

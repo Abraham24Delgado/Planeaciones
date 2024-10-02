@@ -1,4 +1,3 @@
-import { AcademicCapIcon} from '@heroicons/react/24/outline';
 import LoginForm from '../../ui/login-form';
 export default function LoginPage(){
     return (

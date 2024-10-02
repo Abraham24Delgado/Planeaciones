@@ -1,18 +1,6 @@
-import {
-    BanknotesIcon,
-    ClockIcon,
-    UserGroupIcon,
-    InboxIcon,
-  } from '@heroicons/react/24/outline';
-  
-  import { lusitana } from '@/app/ui/fonts';
+
 import { fetchFilesData } from '@/app/lib/data';
-  
-  const iconMap = {
-    pdf: '/icons/pdf3.png',
-    pptx: '/icons/pptx3.png',
-  };
-  
+    
 export default async function CardFiles(){
       const latestFiles = await fetchFilesData();
 
