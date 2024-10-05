@@ -63,7 +63,7 @@ const authOptions = {
         return baseUrl; // o redirige a una página específica después del inicio de sesión
       },
     },
-    secret: process.env.NEXT_PUBLIC_SECRET,
+    secret: process.env.NEXTAUTH_SECRET,
 };
 
 const handler = NextAuth(authOptions);
